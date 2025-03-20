@@ -21,3 +21,6 @@ The vision of the On-chain Flashcard System is to create a decentralized educati
 - **Creator Tracking**: Each flashcard is linked to the creator’s address, providing full ownership and accountability.
 - **Event-driven**: Smart contract emits an event whenever a flashcard is created, providing an auditable log of actions.
 
+## contract Address:
+0x1B0FcDba07ec0662bCc34E12A8dB577EE97B59E7
+![image](https://github.com/user-attachments/assets/0c1e3b3e-cb91-4124-8aff-df1be775fab2)
