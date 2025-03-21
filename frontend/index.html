@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flashcard System</h1>
+            <p>Create and view flashcards on the Ethereum blockchain</p>
+        </header>
+
+        <section id="create-section">
+            <h2>Create a Flashcard</h2>
+            <input type="text" id="question" placeholder="Enter question">
+            <input type="text" id="answer" placeholder="Enter answer">
+            <button id="create-btn">Create Flashcard</button>
+        </section>
+
+        <section id="flashcards-section">
+            <h2>View Flashcards</h2>
+            <div id="flashcards-list">
+                <p>No flashcards yet. Create some!</p>
+            </div>
+            <button id="load-btn">Load Flashcards</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Flashcard System</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.5/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
